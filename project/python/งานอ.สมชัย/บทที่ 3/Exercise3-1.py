@@ -10,9 +10,6 @@ money %= 500
 b100 = money // 100
 money %= 100
 
-if b1000 > 0:
-    print(f"Cash B1000 : {b1000:.1f}")
-if b500 > 0:
-    print(f"Cash B500  : {b500:.1f}")
-if b100 > 0:
-    print(f"Cash B100  : {b100:.1f}")
+print(f"Cash B1000 : {b1000:.1f}")
+print(f"Cash B500  : {b500:.1f}")
+print(f"Cash B100  : {b100:.1f}")
