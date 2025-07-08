@@ -4,4 +4,4 @@ year = int(input("Enter year : "))
 
 fv = amount * (1 + rate) ** year
 
-print(f"Future value = {fv}")
+print("Future value = ", fv)
